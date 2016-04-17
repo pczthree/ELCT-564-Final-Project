@@ -7,7 +7,7 @@ c = 3E8;
 eps_e = (eps_r + 1)/2 + ((eps_r - 1)/2)*(1+12*d/W)^(-1/2);
 
 len = phi*(pi/180)*c/(2*pi*f*sqrt(eps_e));
-len = len*1000;
+len = len;
 
 end
 
